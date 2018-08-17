@@ -32,7 +32,7 @@ class TagFix_MultipleTag(Plugin):
         self.errors[20800] = { "item": 2080, "level": 1, "tag": ["tag", "highway", "roundabout", "fix:chair"], "desc": T_(u"Tag highway missing on junction") }
         self.errors[20801] = { "item": 2080, "level": 1, "tag": ["tag", "highway", "fix:chair"], "desc": T_(u"Tag highway missing on oneway") }
         self.errors[20803] = { "item": 2080, "level": 2, "tag": ["tag", "highway", "fix:chair"], "desc": T_(u"Tag highway missing for tracktype or lanes") }
-        self.errors[20301] = { "item": 2030, "level": 1, "tag": ["tag", "highway", "cycleway", "fix:survey"], "desc": T_(u"Opposite cycleway without oneway") }
+        self.errors[20301] = { "item": 2030, "level": 1, "tag": ["tag", "highway", "cycleway", "cycle", "fix:survey"], "desc": T_(u"Opposite cycleway without oneway") }
         self.errors[71301] = { "item": 7130, "level": 3, "tag": ["tag", "highway", "maxheight", "fix:survey"], "desc": T_(u"Missing maxheight tag") }
         self.errors[21101] = { "item": 2110, "level": 3, "tag": ["tag"], "desc": T_(u"Name present but missing main tag") }
         self.errors[21102] = { "item": 2110, "level": 2, "tag": ["tag"], "desc": T_(u"Missing relation type") }
